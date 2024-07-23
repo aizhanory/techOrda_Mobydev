@@ -1,0 +1,73 @@
+//Task 1
+
+let width = 10
+let height = 20
+let area = width * height
+print(area)
+
+let roomArea = area / 2
+print(roomArea)
+
+let perimeter = 2 * (width + height)
+print(perimeter)
+
+//Task 2
+
+var a = 12
+var b = 5
+var c = a % b
+print(c)
+
+//Task 3
+
+let heartRate1 = 77
+let heartRate2 = 88
+let heartRate3 = 99
+
+let addedHR = heartRate1 + heartRate2 + heartRate3
+let averageHR = addedHR / 3
+print(addedHR)
+print(averageHR)
+
+let heartRate1D: Double = 77
+let heartRate2D: Double = 88
+let heartRate3D: Double = 99
+
+let addedHRD = heartRate1D + heartRate2D + heartRate3D
+let averageHRD = addedHRD / 3
+print(addedHRD)
+print(averageHRD)
+print("Double это число с плавающей запятой (напр., 0.0), а Int это целое число. Ничего не поменялось, просто в double теперь виден .0, например 88.0")
+
+//Task 4
+
+let goal: Double = 10000
+let steps: Double = 3467
+
+let percentOfGoal: Double = (steps / goal) * 100
+
+print(percentOfGoal)
+
+//Task 5
+
+var balance = 0
+
+balance += 10000
+print(balance)
+
+balance += 20000
+print(balance)
+
+balance /= 2
+print(balance)
+
+balance *= 3
+print(balance)
+
+balance -= 3000
+print(balance)
+
+//Task 6
+
+print((10 + 2) * 5)
+print(4 * (9 - 6) / 2)
