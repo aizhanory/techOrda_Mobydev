@@ -1,0 +1,69 @@
+//Task 1
+
+//let friends = 1234
+//
+//print("Количество моих друзей в социальных сетях: \(friends)")
+//
+//friends = 234
+
+//cannot assign to value: 'friends' is a 'let' constant
+
+//solution:
+
+var friends = 1234
+
+print("Количество моих друзей в социальных сетях: \(friends)")
+
+friends = 234
+
+print ("Количество моих друзей в социальных сетях: \(friends)")
+
+//Task 2
+
+let goalSteps = 10000
+
+print("Ваша цель на сегодняшний день: \(goalSteps)")
+
+
+//Task 3
+
+var schooling = 11
+
+print(schooling)
+
+schooling += 1
+
+print(schooling)
+
+print("По сравнению с let, var является переменным, то есть поддается к изменениям. А let это констант, неизменяемый тип")
+
+// Task 4
+
+var steps = 0
+print(steps)
+
+steps = 2000
+
+print(steps)
+
+print("Хорошая работа! Вы уже на пути к своей ежедневной цели")
+
+//Task 5
+
+//var name: String
+//print(name)
+//note: variable defined here, не сработал
+
+var name:String = "Aizhan"
+print(name)
+print("Мы не присвоили значение к name, поэтому он выдал ошибку")
+
+//Task 6
+
+//var distanceTraveled = 0
+//distanceTraveled = 54.3
+//cannot assign value of type 'Double' to type 'Int'
+
+var distanceTraveled: Double = 0
+distanceTraveled = 54.3
+print(distanceTraveled)
