@@ -1,0 +1,86 @@
+//Task 1
+
+var name = "Айжан"
+
+print(name)
+
+let favoriteQuote = "\"Случайности не случайны.\""
+print("Моя любимая цитата - \(favoriteQuote)")
+
+var emptyString = ""
+if emptyString.isEmpty {
+    print("Здесь ничего нет")
+} else {
+    print("Она не пуста, как я думал")
+}
+
+//Task 2
+
+let city: String = "Астана"
+let region: String = "Астана (не входит в область Акмола)"
+let home = "\(city) , \(region)"
+print(home)
+
+var introduction = "Я живу в "
+print(introduction + home)
+
+let namee: String = "Айжан"// написала namee вместо name, так как сверху name существует
+let age: Int = 21
+print("Меня зовут \(namee), и на следующий год мне будет \(age + 1) лет.")
+
+
+//Task 3
+
+let nameee = "Айжан " // написала nameee вместо name, так как сверху name существует
+let surname = "Орынбасар"
+
+let fullName = nameee + surname
+print(fullName)
+
+var previousBest = 1234
+var newBest = 2345
+
+let congratulations = "Поздравляем, \(fullName)! Вы превзошли свой предыдущий рекорд в \(previousBest), сделав \(newBest) шагов вчера!"
+print(congratulations)
+
+//Task 4
+
+//4.1
+
+let nameInCaps: String = "АЙЖАН"
+let username: String = "айжан" // написала username вместо name, так как сверху name существует
+
+if nameInCaps == username {
+    print("Эти две строки равны")
+} else {
+    print("Эти две строки не равны")
+}
+
+if nameInCaps.lowercased() == username.lowercased() {
+    print("\(nameInCaps) и \(username) совпадают")
+}
+else {
+    print("\(nameInCaps) и \(username) не совпадают")
+}
+
+//4.2
+
+let personName = "Robert Downey Jr"
+
+if personName.contains("Jr"){
+    print("Second generation")
+}
+
+//4.3
+
+let textToSearchThrough = "быть или не быть вот в чём вопрос"
+let textToSearchFor = "быть или не быть"
+
+if textToSearchThrough.contains(textToSearchFor) {
+    print("Я нашел!")
+}
+
+//4.4
+
+let myName = "Aizhan"
+print(myName.count)
